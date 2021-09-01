@@ -85,4 +85,3 @@ $('#overlay, #close-menu-button').click(function () {
   $.sidr('close', 'sidr');
 });
 
-

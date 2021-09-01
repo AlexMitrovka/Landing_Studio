@@ -54,7 +54,7 @@ p {
 
 .header {
   // background: url('../img/backgroundheader.jpg') top center / cover;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 220px;
   height: 100vh;
   &-overlay {
@@ -172,6 +172,15 @@ p {
     transform: translateY(0px);
   }
 }
+
+.arrow-link {
+  display: flex;
+  justify-content: center;
+  margin: 150px 0 0;
+  transition: .3s;
+}
+
+
 
 // About
 
@@ -533,25 +542,25 @@ p {
 
 .instagram {
   display: block;
-  background: url("/img/iconsinstagram.png") no-repeat;
+  background: url("../img/iconsinstagram.png") no-repeat;
   width: 50px;
   height: 50px;
 }
 .whatsapp {
   display: block;
-  background: url("/img/iconswhatsapp.png");
+  background: url("..assets/img/iconswhatsapp.png");
   width: 50px;
   height: 41px;
 }
 .telegram {
   display: block;
-  background: url("/img/iconstelegram.png");
+  background: url("../img/iconstelegram.png");
   width: 50px;
   height: 41px;
 }
 .facebook {
   display: block;
-  background: url("/img/iconsfacebook.png");
+  background: url("../img/iconsfacebook.png");
   width: 50px;
   height: 50px;
 }
@@ -711,6 +720,7 @@ p {
 }
 
 .content-card {
+  padding: 25px;
   background-color: #eee;
   border-style: solid;
   border-width: 3px 0px 0px 0px;
@@ -741,7 +751,7 @@ p {
     border-width: 2px 2px 2px 2px;
     border-radius: 30px 30px 30px 30px;
     padding: 15px 30px;
-    display: inline-block;
+    display: flex;
     margin: 20px auto;
     width: 225px;
     transition: background-color 0.3s ease, color 0.3s linear;
@@ -794,3 +804,24 @@ p {
   right: 0;
   z-index: 50;
 }
+
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 2%;
+  bottom: 8%;
+  display: flex;
+  background-color: #c2c2c2;
+  border-radius: .25rem;
+  padding: .45rem;
+  opacity: 9;
+  z-index: 10;
+  transition: .4s;
+}
+
+.scrollup:hover {
+  background-color:rgb(122, 122, 122);
+  opacity: 1;
+}
+
+
