@@ -178,7 +178,7 @@ p {
   display: flex;
   justify-content: center;
   margin: 150px 0 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .about__line-title {
@@ -825,11 +825,11 @@ p {
   bottom: 8%;
   display: flex;
   background-color: #c2c2c2;
-  border-radius: .25rem;
-  padding: .45rem;
+  border-radius: 0.25rem;
+  padding: 0.45rem;
   opacity: 9;
   z-index: 10;
-  transition: .4s;
+  transition: 0.4s;
 }
 
 .scrollup:hover {
@@ -840,5 +840,9 @@ p {
 .testgithub {
   text-align: center;
   padding-left: 10px;
+}
+
+.SashaPrivetKakDela {
+  padding: 2opx;
 }
 /*# sourceMappingURL=main.css.map */
