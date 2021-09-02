@@ -174,9 +174,9 @@ p {
 }
 
 .arrow-link {
-  display: flex;
-  justify-content: center;
-  margin: 150px 0 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
   transition: 0.3s;
 }
 
@@ -811,15 +811,22 @@ p {
   background-color: #c2c2c2;
   border-radius: 0.25rem;
   padding: 0.45rem;
-  opacity: 9;
+  visibility: hidden;
+  opacity: 0;
   z-index: 10;
   transition: 0.4s;
+  &:hover {
+    background-color: rgb(122, 122, 122);
+    opacity: 1;
+  }
+  
 }
-
-.scrollup:hover {
-  background-color: rgb(122, 122, 122);
+.scrollup.active {
+  visibility: visible;
   opacity: 1;
 }
+
+
 .testgithub {
   text-align: center;
   padding-left: 10px;

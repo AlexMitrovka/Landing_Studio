@@ -85,3 +85,26 @@ $('#overlay, #close-menu-button').click(function () {
   $.sidr('close', 'sidr');
 });
 
+
+
+/**
+* Back to top button
+*/
+const onscroll = (el, listener) => {
+  el.addEventListener('scroll', listener)
+}
+
+let backtotop = $('.scrollup')
+if (backtotop) {
+  const toggleBacktotop = () => {
+    if (window.scrollY > 100) {
+      backtotop.addClass('active')
+    } else {
+      backtotop.removeClass('active')
+    }
+  }
+  window.addEventListener('load', toggleBacktotop)
+  onscroll(document, toggleBacktotop)
+}
+
+
