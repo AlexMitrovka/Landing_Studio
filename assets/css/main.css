@@ -540,41 +540,6 @@ p {
   padding: 250px 0 150px;
 }
 
-.instagram {
-  display: block;
-  background: url("../img/iconsinstagram.png") no-repeat;
-  width: 50px;
-  height: 50px;
-}
-
-.whatsapp {
-  display: block;
-  background: url("..assets/img/iconswhatsapp.png");
-  width: 50px;
-  height: 41px;
-}
-
-.telegram {
-  display: block;
-  background: url("../img/iconstelegram.png");
-  width: 50px;
-  height: 41px;
-}
-
-.facebook {
-  display: block;
-  background: url("../img/iconsfacebook.png");
-  width: 50px;
-  height: 50px;
-}
-
-.footer-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  text-align: end;
-}
-
 .copy-text {
   font-size: 12px;
 }
